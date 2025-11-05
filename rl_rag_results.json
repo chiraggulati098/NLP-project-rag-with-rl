@@ -1,0 +1,13 @@
+{
+  "query": "What is Quantum Computing?",
+  "ground_truth": "|\u03c8\u27e9 = \u03b1|0\u27e9 + \u03b2|1\u27e9, where \u03b1 and \u03b2 are complex numbers satisfying |\u03b1|\u00b2 + |\u03b2|\u00b2 = 1, representing the probability amplitudes for measuring the qubit in state |0\u27e9 or |1\u27e9 respectively.",
+  "simple_rag": {
+    "response": "\u03c8 = \u03b1|0\u27e9 + \u03b2|1\u27e9\nwhere \u03b1 and \u03b2 are complex numbers satisfying |\u03b1|\u00b2 + |\u03b2|\u00b2 = 1 representing the probability amplitudes for measuring the qubit in state 0 or 1 respectively",
+    "similarity": 0.9896871281568876
+  },
+  "rl_rag": {
+    "response": "\u03c8 = \u03b1|0\u27e9 + \u03b2|1\u27e9\nwhere \u03b1 and \u03b2 are complex numbers satisfying |\u03b1|\u00b2 + |\u03b2|\u00b2 = 1, representing the probability amplitudes for measuring the qubit in state 0 or 1 respectively.",
+    "similarity": 0.9920224241999887
+  },
+  "improvement": 0.0023352960431010095
+}
